@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "simple": "node src/simple-proxy.js",
+    "stable": "node src/stable-proxy.js",
+    "native": "node src/native-proxy.js",
+    "docker": "cd docker && ./run.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
